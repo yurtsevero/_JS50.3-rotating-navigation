@@ -1,0 +1,9 @@
+@include media-sm {
+
+    .container {
+        width: 100vw;    
+    }
+    .panel:nth-last-of-type(-n+2){
+        display: none;
+    }
+}

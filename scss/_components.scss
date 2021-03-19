@@ -1,0 +1,52 @@
+.menu {
+  position: absolute;
+  // top: -100px;
+  // left: -100px;  
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 400px;
+  // padding: 6rem 12rem 12rem 6rem;
+  background-color: rgba($color: #000000, $alpha: 0.1);
+  border-radius: 50% ;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+
+  &:hover{
+    background-color: rgba($color: #000000, $alpha: 0.2);
+    transform: scale(1.1);
+  }
+  &__hamburger{
+    position: absolute;
+    right: 25%;
+    bottom: 25%;
+    transform: translate(-50%,-50%) scale(4);
+  }
+  &__navbar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: rgba($color: #000000, $alpha: 0.1);
+    list-style: none; 
+
+  
+
+  }
+  &__navlink{
+    padding: 2rem;
+
+    &:nth-child(2){
+      padding-left: 4rem;
+    }
+    &:nth-child(3){
+      padding-left: 6rem;
+    }
+  }
+
+}
+
+.content{
+  &__image{
+    width: 100%;
+  }
+}
