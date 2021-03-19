@@ -1,2 +1,2 @@
-# _JS50.2-progress-steps
-# Progress Steps visually showed 
+# _JS50.3-rotating-navigation
+# Rotating Navigation Bar
